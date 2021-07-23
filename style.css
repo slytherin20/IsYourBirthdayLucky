@@ -1,0 +1,76 @@
+.main-container{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    margin:auto auto;
+    box-shadow:0 3px 5px gainsboro;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+}
+.input-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+}
+.popup{
+    position:relative;
+    background-color: #db93b6;
+    width:60%;
+    margin: 20px auto;
+    border-radius: 3%;
+}
+.close-btn{
+    float:right;
+    margin:10px 10px;
+}
+.date-box,.lucky-number-box{
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+}
+.btn{
+   border: none;
+   cursor: pointer;
+   height:30px;
+   width:78px;
+   margin:5px;
+   background-color: #db93b6;
+}
+.btn:active{
+    transform: scale(1.1);
+}
+.hidden{
+    display:none;
+}
+.close-btn:hover{
+    cursor:pointer;
+}
+.description-box{
+    background-color: #32908f;
+    color:#fffadc;
+}
+.date,.lucky-no{
+    margin:10px;
+}
+.crying{
+    width:415px;
+    height:200px;
+}
+.party{
+    width:125.99px;
+    height:127.99px;
+}
+.warning{
+    color: #32908f;
+    font-weight: bold;
+}
+@media screen and (max-width: 450px){
+.main-container{
+    width:100%;
+}
+.crying{
+    width:90%;
+}
+}
